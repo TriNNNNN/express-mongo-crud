@@ -24,3 +24,6 @@ app.use('/employee', employeeCtrl)
 app.listen(3000, () => {
   console.log('express server started at port 3000')
 })
+
+module.exports = app; // for testing
+
